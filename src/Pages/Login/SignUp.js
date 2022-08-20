@@ -27,7 +27,7 @@ const SignUp = () => {
         await sendEmailVerification(data.email);
     };
     useEffect(() => {
-        if (useToken) {
+        if (token) {
             navigate('/home');
         }
     }, [user, token, navigate])

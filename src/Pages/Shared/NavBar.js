@@ -1,8 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
+import userImage from '../../Media/Images/user.png';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../firebase.init';
+import { signOut } from 'firebase/auth';
 
 const NavBar = () => {
+    const [user] = useAuthState(auth);
+    const handleSignOut = () => {
+        signOut(auth);
+        localStorage.removeItem('accessToken');
+    }
     const navTabs = <>
         <li>
             <Link to='/home'>Home</Link>
@@ -17,7 +26,7 @@ const NavBar = () => {
             <Link to=''>Contact Us</Link>
         </li>
         <li>
-            <Link to=''>Login</Link>
+            {user ? <button onClick={handleSignOut} >Logout</button> : <Link to='/logIn'>Login</Link>}
         </li>
     </>
     return (
