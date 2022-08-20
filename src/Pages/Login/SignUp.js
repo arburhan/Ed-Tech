@@ -6,7 +6,7 @@ import { useCreateUserWithEmailAndPassword, useSendEmailVerification, useSignInW
 
 const SignUp = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
-    const onSubmit = async data => { }
+
     const [
         createUserWithEmailAndPassword,
         user,
@@ -16,10 +16,17 @@ const SignUp = () => {
     const [signInWithGoogle, googleUser, googleLoading, googlEerror] = useSignInWithGoogle(auth);
     const [updateProfile, updating, UpdateError] = useUpdateProfile(auth);
     const [sendEmailVerification, verificationError] = useSendEmailVerification(auth);
+
+    const onSubmit = async data => {
+        await createUserWithEmailAndPassword(data.email, data.password);
+        await updateProfile({ displayName: data.name });
+        // toast.success('verification mail sent. please verify');
+        await sendEmailVerification(data.email);
+    };
     let errorMessage;
-    // if (error || googlEerror || UpdateError || verificationError) {
-    //     errorMessage = <p className="text-red-600 mb-3"> {error?.message || googlEerror?.message || UpdateError?.message || verificationError?.message} </p>
-    // }
+    if (error || googlEerror || UpdateError || verificationError) {
+        errorMessage = <p className="text-red-600 mb-3"> {error?.message || googlEerror?.message || UpdateError?.message || verificationError?.message} </p>
+    }
     return (
         <>
             <div className='flex h-screen justify-center items-center'>
@@ -100,10 +107,10 @@ const SignUp = () => {
                         </form>
                         <p><small>Already have an account? <Link className='text-accent' to="/login">Please Login</Link></small></p>
                         <div className="divider">OR</div>
-                        {/* {googleLoading ? <button className="btn loading">loading</button> : <button
+                        {googleLoading ? <button className="btn loading">loading</button> : <button
                             onClick={() => signInWithGoogle()}
                             className="btn btn-outline"
-                        >Continue with Google</button>} */}
+                        >Continue with Google</button>}
                     </div>
                 </div>
             </div >
