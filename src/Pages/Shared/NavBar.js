@@ -5,7 +5,7 @@ import './NavBar.css';
 const NavBar = () => {
     const navTabs = <>
         <li>
-            <Link to=''>Home</Link>
+            <Link to='/home'>Home</Link>
         </li>
         <li>
             <Link to=''>Services</Link>
