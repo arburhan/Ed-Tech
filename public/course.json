@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Graphics Design",
+        "image": "https://i.ibb.co/MhZ9fgr/graphics.jpg",
+        "duration": 10,
+        "instructor": "Imran Nissan",
+        "price": 250
+    },
+    {
+        "name": "Modern JS",
+        "image": "https://i.ibb.co/4NTwKp7/java-Script.png",
+        "duration": 20,
+        "instructor": "JS Dude",
+        "price": 190
+    },
+    {
+        "name": "Python",
+        "image": "https://i.ibb.co/xLBqQkN/python.png",
+        "duration": 30,
+        "instructor": "Mumtahina Sara",
+        "price": 400
+    },
+    {
+        "name": "React Native",
+        "image": "https://i.ibb.co/YkH9B61/React-Native.jpg",
+        "duration": 25,
+        "instructor": "AR Burhan",
+        "price": 350
+    },
+    {
+        "name": "React",
+        "image": "https://i.ibb.co/K7PGM6s/React.jpg",
+        "duration": 20,
+        "instructor": "Jhankar Mahbub",
+        "price": 400
+    },
+    {
+        "name": "UI/UX Design",
+        "image": "https://i.ibb.co/vq966fG/UI-UX.jpg",
+        "duration": 18,
+        "instructor": "Sumaiya Toya",
+        "price": 250
+    },
+    {
+        "name": "C Programming",
+        "image": "https://i.ibb.co/pz8sMTb/C.png",
+        "duration": 25,
+        "instructor": "Anisul Islam",
+        "price": 400
+    },
+    {
+        "name": "C++ Programming",
+        "image": "https://i.ibb.co/kXjqZSJ/C.png",
+        "duration": 30,
+        "instructor": "Rabbil Hasan",
+        "price": 350
+    }
+]
