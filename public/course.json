@@ -1,5 +1,6 @@
 [
     {
+        "_id": 1,
         "name": "Graphics Design",
         "image": "https://i.ibb.co/MhZ9fgr/graphics.jpg",
         "duration": 10,
@@ -7,6 +8,7 @@
         "price": 250
     },
     {
+        "_id": 2,
         "name": "Modern JS",
         "image": "https://i.ibb.co/4NTwKp7/java-Script.png",
         "duration": 20,
@@ -14,6 +16,7 @@
         "price": 190
     },
     {
+        "_id": 3,
         "name": "Python",
         "image": "https://i.ibb.co/xLBqQkN/python.png",
         "duration": 30,
@@ -21,6 +24,7 @@
         "price": 400
     },
     {
+        "_id": 4,
         "name": "React Native",
         "image": "https://i.ibb.co/YkH9B61/React-Native.jpg",
         "duration": 25,
@@ -28,6 +32,7 @@
         "price": 350
     },
     {
+        "_id": 5,
         "name": "React",
         "image": "https://i.ibb.co/K7PGM6s/React.jpg",
         "duration": 20,
@@ -35,6 +40,7 @@
         "price": 400
     },
     {
+        "_id": 6,
         "name": "UI/UX Design",
         "image": "https://i.ibb.co/vq966fG/UI-UX.jpg",
         "duration": 18,
@@ -42,6 +48,7 @@
         "price": 250
     },
     {
+        "_id": 7,
         "name": "C Programming",
         "image": "https://i.ibb.co/pz8sMTb/C.png",
         "duration": 25,
@@ -49,6 +56,7 @@
         "price": 400
     },
     {
+        "_id": 8,
         "name": "C++ Programming",
         "image": "https://i.ibb.co/kXjqZSJ/C.png",
         "duration": 30,

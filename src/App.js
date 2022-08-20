@@ -5,6 +5,8 @@ import SignUp from './Pages/Login/SignUp';
 import { Route, Routes } from 'react-router-dom';
 import NavBar from './Pages/Shared/NavBar';
 import Login from './Pages/Login/Login';
+import RequireAuth from './Pages/Shared/RequireAuth';
+import Purchase from './Pages/Purchase/Purchase';
 
 function App() {
   return (
@@ -15,6 +17,11 @@ function App() {
         <Route path='/home' element={<Home></Home>} ></Route>
         <Route path='/signUp' element={<SignUp></SignUp>} ></Route>
         <Route path='/logIn' element={<Login></Login>}></Route>
+        <Route path='/purchase/:id' element={
+          <RequireAuth>
+            <Purchase></Purchase>
+          </RequireAuth>
+        }></Route>
       </Routes>
     </>
   );
