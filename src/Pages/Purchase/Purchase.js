@@ -26,8 +26,8 @@ const Purchase = () => {
 
             <div className='px-5 md:px-12' >
                 <div className="card mx-auto w-50 max-w-md bg-base-100 shadow-xl my-12">
-                    <figure class="px-10 pt-10 w-[80%] mx-auto">
-                        <img src={course?.image} alt="" class="rounded-xl" />
+                    <figure className="px-10 pt-10 w-[80%] mx-auto">
+                        <img src={course?.image} alt="" className="rounded-xl" />
                     </figure>
                     <div className="card-body">
                         <p className="text-success font-bold">Hello, {user.displayName}</p>

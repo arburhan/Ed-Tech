@@ -9,23 +9,23 @@ const Service = ({ service }) => {
     }
     return (
         <>
-            <div class="card md:w-96 bg-base-200 shadow-xl">
-                <figure class="px-10 pt-10">
-                    <img src={image} alt="" class="rounded-xl" />
+            <div className="card md:w-96 bg-base-200 shadow-xl">
+                <figure className="px-10 pt-10">
+                    <img src={image} alt="" className="rounded-xl" />
                 </figure>
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title">{name}</h2>
+                <div className="card-body items-center text-center">
+                    <h2 className="card-title">{name}</h2>
                     <p>By <span className='text-sky-500' >{instructor}  </span> </p>
                     <div className='flex gap-12 py-2' >
                         <div>
-                            <i class="fas fa-clock text-secondary"></i> {duration} hr
+                            <i className="fas fa-clock text-secondary"></i> {duration} hr
                         </div>
                         <div className='text-[red]' >
-                            <i class="fa-solid fa-dollar-sign"></i> {price}
+                            <i className="fa-solid fa-dollar-sign"></i> {price}
                         </div>
                     </div>
-                    <div class="card-actions">
-                        <button onClick={() => { handleOrder(_id) }} class="btn btn-accent">Enroll</button>
+                    <div className="card-actions">
+                        <button onClick={() => { handleOrder(_id) }} className="btn btn-accent">Enroll</button>
                     </div>
                 </div>
             </div>

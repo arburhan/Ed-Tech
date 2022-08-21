@@ -5,24 +5,24 @@ const Statistics = () => {
         <section className='my-12' >
             <h2 className='text-center' >Statistics</h2>
             <div className='flex items center justify-center'>
-                <div class="stats stats-vertical lg:stats-horizontal shadow p-12">
+                <div className="stats stats-vertical lg:stats-horizontal shadow p-12">
 
-                    <div class="stat">
-                        <div class="stat-title">Total Course</div>
-                        <div class="stat-value">20</div>
-                        <div class="stat-desc">New courses are coming</div>
+                    <div className="stat">
+                        <div className="stat-title">Total Course</div>
+                        <div className="stat-value">20</div>
+                        <div className="stat-desc">New courses are coming</div>
                     </div>
 
-                    <div class="stat">
-                        <div class="stat-title">Students</div>
-                        <div class="stat-value">420M</div>
-                        <div class="stat-desc">↗︎ 400 (22%)</div>
+                    <div className="stat">
+                        <div className="stat-title">Students</div>
+                        <div className="stat-value">420M</div>
+                        <div className="stat-desc">↗︎ 400 (22%)</div>
                     </div>
 
-                    <div class="stat">
-                        <div class="stat-title">Job Placement Team</div>
-                        <div class="stat-value">100</div>
-                        <div class="stat-desc">Success: (14%)</div>
+                    <div className="stat">
+                        <div className="stat-title">Job Placement Team</div>
+                        <div className="stat-value">100</div>
+                        <div className="stat-desc">Success: (14%)</div>
                     </div>
 
                 </div>
