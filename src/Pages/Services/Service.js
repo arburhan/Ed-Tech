@@ -5,7 +5,7 @@ const Service = ({ service }) => {
     const { _id, name, image, instructor, duration, price } = service;
     const navigate = useNavigate();
     const handleOrder = (id) => {
-        navigate(`/purchase/${id}`);
+        navigate(`/course/${id}`);
     }
     return (
         <>

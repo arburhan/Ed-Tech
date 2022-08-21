@@ -20,7 +20,7 @@ function App() {
         <Route path='/signUp' element={<SignUp></SignUp>} ></Route>
         <Route path='/logIn' element={<Login></Login>}></Route>
         <Route path='/services' element={<AllServices></AllServices>}></Route>
-        <Route path='/purchase/:id' element={
+        <Route path='/course/:id' element={
           <RequireAuth>
             <Purchase></Purchase>
           </RequireAuth>
