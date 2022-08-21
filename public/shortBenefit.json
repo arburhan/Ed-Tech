@@ -1,0 +1,20 @@
+[
+    {
+        "_id": 1,
+        "benefitName": "Course Certificate",
+        "image": "https://i.ibb.co/NTnZrV7/Certification-cuate.png",
+        "description": "Everyone will get a course completion certificate which can be scanned and verified from our website. You can download the soft copy of the certificate online and the printed copy will be delivered to your address."
+    },
+    {
+        "_id": 2,
+        "benefitName": "Opportunity to work with us",
+        "image": "https://i.ibb.co/V9hn3W0/Work-anniversary-amico.png",
+        "description": "Among those who will do well in the course, 3k people will be screened and given the opportunity of paid internship in our company. Also, you will get the opportunity to work directly with AR Burhan, the founder of Ed-Tech."
+    },
+    {
+        "_id": 3,
+        "benefitName": "Lifetime course access",
+        "image": "https://i.ibb.co/gP7zRsY/Account-amico.png",
+        "description": "Those who purchase the course once, will receive lifetime access to all course content and will continue to receive all future updates. In addition, you will have lifetime access to the private group where we will try to answer your questions."
+    }
+]

@@ -15,7 +15,7 @@ const Service = ({ service }) => {
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">{name}</h2>
-                    <p>By <span className='text-secondary' >{instructor}  </span> </p>
+                    <p>By <span className='text-sky-500' >{instructor}  </span> </p>
                     <div className='flex gap-12 py-2' >
                         <div>
                             <i class="fas fa-clock text-secondary"></i> {duration} hr
