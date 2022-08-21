@@ -12,7 +12,7 @@ const Services = () => {
     return (
         <section className='px-5 my-10' >
             <h2 className='text-center py-5'>Services</h2>
-            <div className='md:grid md:grid-cols-3 items-center  gap-8' >
+            <div className='md:grid md:grid-cols-3 items-center gap-y-10  md:gap-8' >
                 {
                     services?.slice(-6).map(service => <Service service={service} ></Service>)
                 }

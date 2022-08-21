@@ -1,0 +1,37 @@
+/* 
+-------------
+Fotter Section
+--------------
+ */
+footer {
+    width: 100%;
+    color: white;
+    height: 239px;
+    background-color: #0A0826;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    text-align: center;
+    align-content: space-evenly;
+}
+
+.footer-title>h1 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.copyright>p {
+    color: #D9DBE1;
+    margin: 0px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.social {
+    color: white;
+}

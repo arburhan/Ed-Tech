@@ -8,6 +8,7 @@ import Login from './Pages/Login/Login';
 import RequireAuth from './Pages/Shared/RequireAuth';
 import Purchase from './Pages/Purchase/Purchase';
 import AllServices from './Pages/Services/AllServices';
+import Footer from './Pages/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           </RequireAuth>
         }></Route>
       </Routes>
+      <Footer></Footer>
     </>
   );
 }
