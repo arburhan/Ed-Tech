@@ -14,7 +14,7 @@ const Purchase = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        fetch(`http://localhost:5000/course/${id}`)
+        fetch(`https://pure-meadow-27946.herokuapp.com/course/${id}`)
             .then(res => res.json())
             .then(data => setCourse(data))
     }, [id]);

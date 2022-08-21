@@ -15,7 +15,7 @@ const CheckoutForm = ({ course }) => {
     const { id } = useParams();
     const [user] = useAuthState(auth);
     // useEffect(() => {
-    //     fetch('http://localhost:5000/create-payment-intent', {
+    //     fetch('https://pure-meadow-27946.herokuapp.com//create-payment-intent', {
     //         method: 'POST',
     //         headers: {
     //             'content-type': 'application/json',
@@ -81,7 +81,7 @@ const CheckoutForm = ({ course }) => {
                 id: id,
                 transactionId: paymentIntent.id
             }
-            fetch(`http://localhost:5000/course/${id}`, {
+            fetch(`https://pure-meadow-27946.herokuapp.com/course/${id}`, {
                 method: 'PATCH',
                 headers: {
                     'content-type': 'application/json',

@@ -17,7 +17,7 @@ const ShortBenefit = () => {
             </div>
             <div className='flex flex-col md:flex-row content-center items-center gap-y-5 md:gap-x-5 px-12 py-10' >
                 {
-                    shortBenefit?.map(benefit => <BenefitCard benefit={benefit} ></BenefitCard>)
+                    shortBenefit?.map(benefit => <BenefitCard key={benefit._id} benefit={benefit} ></BenefitCard>)
                 }
             </div>
         </div>
